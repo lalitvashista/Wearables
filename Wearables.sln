@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.35706.149
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearables.Web", "Wearables.Web\Wearables.Web.csproj", "{0483428E-418F-42CB-9B5F-AFC7C24389A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearables.Entities", "Wearables.Entities\Wearables.Entities.csproj", "{F850B972-92BA-4641-ADD7-305019E466FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0483428E-418F-42CB-9B5F-AFC7C24389A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0483428E-418F-42CB-9B5F-AFC7C24389A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0483428E-418F-42CB-9B5F-AFC7C24389A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F850B972-92BA-4641-ADD7-305019E466FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F850B972-92BA-4641-ADD7-305019E466FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F850B972-92BA-4641-ADD7-305019E466FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F850B972-92BA-4641-ADD7-305019E466FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
