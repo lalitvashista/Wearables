@@ -10,6 +10,10 @@ namespace Wearables.Database
 {
     public class WContext :DbContext
     {
+        public WContext() : base("WearablesConnection")
+        {
+
+        }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
     }

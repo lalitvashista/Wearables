@@ -51,6 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202501240838474_Initialised.cs" />
+    <Compile Include="Migrations\202501240838474_Initialised.designer.cs">
+      <DependentUpon>202501240838474_Initialised.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WContext.cs" />
   </ItemGroup>
@@ -63,6 +68,11 @@
       <Project>{f850b972-92ba-4641-add7-305019e466fd}</Project>
       <Name>Wearables.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202501240838474_Initialised.resx">
+      <DependentUpon>202501240838474_Initialised.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
