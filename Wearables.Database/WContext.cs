@@ -8,7 +8,7 @@ using Wearables.Entities;
 
 namespace Wearables.Database
 {
-    public class WContext :DbContext
+    public class WContext :DbContext, IDisposable
     {
         public WContext() : base("WearablesConnection")
         {

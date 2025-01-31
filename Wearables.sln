@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearables.Entities", "Weara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearables.Database", "Wearables.Database\Wearables.Database.csproj", "{7A9F9917-7F9B-467A-9659-CBEBA8C9091A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearables.Services", "Wearables.Services\Wearables.Services.csproj", "{22F073E7-7ACD-419B-8DB3-7360A872E6B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7A9F9917-7F9B-467A-9659-CBEBA8C9091A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A9F9917-7F9B-467A-9659-CBEBA8C9091A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A9F9917-7F9B-467A-9659-CBEBA8C9091A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F073E7-7ACD-419B-8DB3-7360A872E6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F073E7-7ACD-419B-8DB3-7360A872E6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F073E7-7ACD-419B-8DB3-7360A872E6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F073E7-7ACD-419B-8DB3-7360A872E6B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
